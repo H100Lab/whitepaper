@@ -1,24 +1,22 @@
-# whitepaper
-Open-source whitepaper on the physics, engineering, and evolutionary architecture of space-ground integrated computing.
 # 空地一体太空算力中心白皮书：物理、工程与商业演进架构
-### Space-Ground Integrated Computing Center Whitepaper: Physics, Engineering, and Evolutionary Architecture
+# Space-Ground Integrated Computing Center Whitepaper: Physics, Engineering, and Evolutionary Architecture
 
-> **组织机构**：[H100Lab (H100 商业太空实验室)](https://github.com/H100Lab)  
-> **主笔作者**：隋鑫 (Xin Sui) | Contact: seenfisher@gmail.com  
-> **开源许可**：[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+> **组织机构 / Organization**：[H100Lab (H100 Commercial Space Laboratory)](https://github.com/H100Lab)  
+> **主笔作者 / Lead Author**：隋鑫 (Xin Sui) | Contact: seenfisher@gmail.com  
+> **开源许可 / License**：[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
 
 ## 📖 在线双语白皮书全文阅读 (Online Full-Text Reading)
 
-* 🇨🇳 **中文官方正式版**：[点击在此打开 Google Docs 阅读全文](https://docs.google.com/document/d/1vYNXxHIsJCLwObGQAGsomuGDKtomB1f1lf-FWdWzy70/edit)
-* 🇺🇸 **Official English Edition**: [Read the Full Whitepaper on Google Docs](https://docs.google.com/document/d/11kdxpGuK4QotaSpG8xDsdAyqFG0rAj2e2wooK-I2XEM/edit)
+* 🇨🇳 **中文官方正式版 (Chinese Edition)**：[点击在此打开 Google Docs 阅读全文](https://docs.google.com/document/d/1vYNXxHIsJCLwObGQAGsomuGDKtomB1f1lf-FWdWzy70/edit)
+* 🇺🇸 **Official English Edition**：[Read the Full Whitepaper on Google Docs](https://docs.google.com/document/d/11kdxpGuK4QotaSpG8xDsdAyqFG0rAj2e2wooK-I2XEM/edit)
 
 ---
 
-## 核心架构与演进路线 (Executive Summary & Architecture)
+## 🇨🇳 中文核心概要 (Chinese Overview)
 
-本项目从第一性原理出发，系统论证利用近地轨道（LEO）24 小时连续无衰减太阳能（1361 W/m²）与深冷真空（~3K）被动辐射散热红利，打破地表能源与热力学极限，构建面向未来的空天地一体化算力基础设施。
+本项目从物理第一性原理出发，系统论证利用近地轨道（LEO）24 小时连续无衰减太阳能（1361 W/m²）与深冷真空（~3K）被动辐射散热红利，打破地表能源与热力学极限，构建面向未来的空天地一体化算力基础设施。
 
 ### 1. 硬核工程破局 (Engineering Breakthroughs)
 * **7–22nm RRAM/MRAM 3D-CIM 存算一体**：从材料物理底层天然免疫单粒子翻转（SEU），打破对 3nm/5nm 先进制程与极尖端光刻的依赖；三维垂直堆叠消除“存储墙”，斩断 90% 数据搬运功耗，能效比突破 50~100 TOPS/W；
@@ -38,9 +36,31 @@ Open-source whitepaper on the physics, engineering, and evolutionary architectur
 
 ---
 
-## 官方引用规范 (Citation)
+## 🇺🇸 English Executive Summary
 
-如在学术研究、产业研报或工程架构中引用本白皮书，推荐使用以下格式：
+This whitepaper defines a first-principles architectural blueprint for a **Space-Ground Integrated Computing Center**. By leveraging Low Earth Orbit (LEO), the system capitalizes on an unattenuated, continuous solar constant of **1361 W/m²** (in Sun-Synchronous Dawn-Dusk orbits) and a cryogenic **~3 K deep-space radiative heat sink**, fundamentally overcoming terrestrial thermodynamic and electrical grid limitations.
+
+### 1. Core Engineering Breakthroughs
+* **7–22nm Non-Volatile 3D Compute-in-Memory (3D-CIM)**: Replacing volatile charge storage with RRAM/MRAM to achieve physical-level SEU radiation immunity; wafer-level vertical stacking bypasses the Von Neumann memory wall, cutting 90%+ data-movement power with 50–100 TOPS/W energy efficiency;
+* **Physical Model-Weight Solidification**: Neural weights physically programmed into non-volatile arrays with INT8/FP8 quantization, delivering zero cold-start latency and zero-maintenance operational longevity;
+* **Ultra-Thin Slab Satellite Bus**: Blade-server planar chassis enabling dense fairing stacking for fully reusable launch vehicles, driving orbital insertion costs below $100/kg;
+* **100+ Gbps Optical Inter-Satellite Links (OISL)**: Quad-directional micro-radian PAT terminals establishing an autonomous, self-healing orbital all-optical mesh.
+
+### 2. System-Level Three-Dimensional Synergy
+* **Workload Allocation Synergy**: Ground-anchored foundation training, native space-sensing real-time inference, and cost-driven dynamic offloading of terrestrial batch workloads;
+* **Software Toolchain Synergy**: Cloud-native API virtualization, unified heterogeneous compiler (automated graph partitioning and quantization), and non-volatile in-orbit OTA delta-weight updates;
+* **Communications Networking Synergy**: Asymmetric Delay/Disruption Tolerant Networking (DTN) and cognitive intelligence downlink (delivering actionable alerts instead of uncurated raw pixels).
+
+### 3. Cost-Curve-Driven Phased Transition
+1. **Stage 1: Ground-Based Full-Scale Verification**: Hardening 3D-CIM silicon, compiler stacks, and scheduling algorithms under operational terrestrial workloads;
+2. **Stage 2: Early Space Foothold (Native High-Margin Workloads)**: In-situ real-time natural disaster damage mapping (earthquakes, landslides, wildfires, floods) and maritime emergency rescue;
+3. **Stage 3: Mature Orbital Offloading**: Transitioning terrestrial high-concurrency inference workloads to deep space as launch costs drop below $100/kg, realizing structural TCO cost superiority.
+
+---
+
+## 📑 官方文献引用规范 (Citation & BibTeX)
+
+如在学术研究、产业研报或工程方案中引用本白皮书，推荐使用如下标准格式：
 
 ```bibtex
 @article{sui2026spaceground,

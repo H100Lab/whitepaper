@@ -9,12 +9,12 @@
 
 ## 📖 在线双语白皮书全文阅读 (Online Full-Text Reading)
 
-* 🇨🇳 **中文官方正式版 (Chinese Edition)**：[点击在此打开 Google Docs 阅读全文](https://docs.google.com/document/d/1vYNXxHIsJCLwObGQAGsomuGDKtomB1f1lf-FWdWzy70/edit)
-* 🇺🇸 **Official English Edition**：[Read the Full Whitepaper on Google Docs](https://docs.google.com/document/d/11kdxpGuK4QotaSpG8xDsdAyqFG0rAj2e2wooK-I2XEM/edit)
+ **中文官方正式版 (Chinese Edition)**：[点击在此打开 Google Docs 阅读全文](https://docs.google.com/document/d/1vYNXxHIsJCLwObGQAGsomuGDKtomB1f1lf-FWdWzy70/edit)
+ **Official English Edition**：[Read the Full Whitepaper on Google Docs](https://docs.google.com/document/d/11kdxpGuK4QotaSpG8xDsdAyqFG0rAj2e2wooK-I2XEM/edit)
 
 ---
 
-## 🇨🇳 中文核心概要 (Chinese Overview)
+## 核心概要 (Chinese Overview)
 
 本项目从物理第一性原理出发，系统论证利用近地轨道（LEO）24 小时连续无衰减太阳能（1361 W/m²）与深冷真空（~3K）被动辐射散热红利，打破地表能源与热力学极限，构建面向未来的空天地一体化算力基础设施。
 
@@ -36,7 +36,7 @@
 
 ---
 
-## 🇺🇸 English Executive Summary
+## English Executive Summary
 
 This whitepaper defines a first-principles architectural blueprint for a **Space-Ground Integrated Computing Center**. By leveraging Low Earth Orbit (LEO), the system capitalizes on an unattenuated, continuous solar constant of **1361 W/m²** (in Sun-Synchronous Dawn-Dusk orbits) and a cryogenic **~3 K deep-space radiative heat sink**, fundamentally overcoming terrestrial thermodynamic and electrical grid limitations.
 
